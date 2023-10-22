@@ -1,0 +1,9 @@
+body {
+    min-width: 300px;
+    min-height: 300px;
+   background: red;
+}
+
+.center {
+    text-align: center;
+}
