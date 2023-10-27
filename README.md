@@ -17,7 +17,7 @@ Phisify is a web browser extension designed to enhance email security by leverag
 ### Normal Installation
 
 1. Visit the [Chrome Web Store](https://chrome.google.com/webstore). Pendinng Approval
-2. Search for "Phisly."
+2. Search for "Phisify."
 3. Click "Install" on the Phisify extension store page.
 4. Follow on-screen prompts to confirm the installation.
 5. Phisify will be added to your Chrome browser's toolbar.
