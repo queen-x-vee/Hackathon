@@ -1,13 +1,19 @@
 
 {
-    "name": "Email scraper",
-    "description": "Scraps email from any website",
+    "name": "Phisify",
+    "description": "Spam and phising email detector",
     "version": "1.0",
     "manifest_version":3,
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
     },
     "permissions": ["activeTab", "scripting"],
+    "icons": {
+       "16": "icon.png" ,
+       "48": "icon.png",
+       "128": "icon.png"  
+    },
     "content_scripts": [
        {
         "matches": ["<all_urls>"],

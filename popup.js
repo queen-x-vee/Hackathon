@@ -55822,14 +55822,12 @@ document.addEventListener("DOMContentLoaded", function () {
           div.style =
             "background-color:red ; font-size: 18px;color:white; margin: 10px; padding: 8px; border-radius: 10px;";
           document.body.appendChild(div);
-          
         }
-       
-      } 
+      }
     }
-
     sendResponse({ count: 1 });
   });
+  
 
   //////////////////////////////
   scrapeEmails.addEventListener("click", async () => {
@@ -55848,4 +55846,3 @@ document.addEventListener("DOMContentLoaded", function () {
     chrome.runtime.sendMessage({ emails });
   }
 });
-
