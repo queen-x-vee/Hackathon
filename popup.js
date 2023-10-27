@@ -55808,7 +55808,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //get emails
     let emails = request.emails;
 
-    alert(`The emails on this page are: ${emails}`);
+    alert(`The emails on this page are: ${emails ? emails : '0'}`);
     const div = document.createElement("div");
     div.textContent = `Checking Emails...`;
     div.style = "font-size: 16px;color:grey; margin: 15px; padding: 10px;";
